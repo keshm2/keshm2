@@ -24,9 +24,9 @@ Always looking for opportunities to work on something meaningful and ship real s
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG tool — ask questions about documents using Llama 3 running on Ollama with BAAI/bge-m3 embeddings | Python, LlamaIndex, Ollama |
-| [bots](https://github.com/keshm2/bots) | Discord bots — chore tracker with SQLite, Canvas LMS assignment reminders, music and mod commands | Python, discord.py |
-| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager — team password vault with role-based access control, built on PHP, MySQL, and Nginx with Docker | PHP, MySQL, Nginx, Docker |
+| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG tool: Ask questions about documents using Llama 3 running on Ollama with BAAI/bge-m3 embeddings | Python, LlamaIndex, Ollama |
+| [bots](https://github.com/keshm2/bots) | Discord bots: Chore tracker with SQLite, Canvas LMS assignment reminders, music and mod commands | Python, discord.py |
+| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager:  Team password vault with role-based access control, built on PHP, MySQL, and Nginx with Docker | PHP, MySQL, Nginx, Docker |
 | [info201_finalProject_wi26](https://github.com/keshm2/info201_finalProject_wi26) | Data analysis and interactive dashboard for an INFO 201 project | Quarto, R |
 
 ---
