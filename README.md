@@ -1,6 +1,6 @@
 <div align="center">
 
-  <a href="https://linkedin.com/in/keshmuthu">
+  <a href="https://linkedin.com/in/ukeshwaran">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 
@@ -10,11 +10,11 @@
 
 ## Hi, I'm Kesh
 
-I'm a junior Informatics student at the University of Washington focused on software engineering, applied AI, and cybersecurity. I build practical, security-minded applications — from Dockerized web apps designed to teach real-world attack and defense patterns, to RAG pipelines backed by open-source LLMs.
+I'm a junior Informatics student at UW interested in software engineering, applied AI, and cybersecurity. I like building things that actually work and solve real problems — not just toy projects.
 
-Currently I'm working on LoRA fine-tuning of Llama 3/4 models using Axolotl, building vector-database-backed RAG systems, and developing Discord bots that automate chores and pull Canvas assignment reminders. On the security side, I've built an intentionally vulnerable password manager with role-based access control as a hands-on teaching tool for vulnerability identification and remediation — covering SQL injection, CSRF, auth bypass, and more.
+Right now I'm messing around with LoRA fine-tuning open-source LLMs (Llama 3/4), building RAG systems with vector databases, and working on Discord bots that handle chores and Canvas assignment reminders. On the security side I've built a password manager with role-based access control and worked through a lot of the common web vulnerabilities hands-on — SQL injection, CSRF, auth bypass, that kind of stuff.
 
-I'm strongest in Python and also work in C++, Java, JavaScript, PHP, and SQL. I'm comfortable with Docker, Nginx, MySQL, SQLite, and REST APIs. I'm always iterating on what I ship and looking for opportunities to build reliable, security-conscious software.
+My go-to language is Python but I also use C++, JavaScript, PHP, and SQL pretty regularly. I've got experience with Docker, Nginx, MySQL, and SQLite. Always looking for opportunities to work on something meaningful and ship real software.
 
 ---
 
@@ -22,12 +22,10 @@ I'm strongest in Python and also work in C++, Java, JavaScript, PHP, and SQL. I'
 
 | Repo | Description | Stack |
 |------|-------------|-------|
-| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG system — query documents using Llama 3 via Ollama, LlamaParse, and BAAI/bge-m3 embeddings | Python, LlamaIndex, Ollama |
-| [bots](https://github.com/keshm2/bots) | Discord bots — Chore Bot with SQLite tracking and Canvas LMS integration, plus music and mod cogs | Python, discord.py |
-| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager — intentionally vulnerable team password vault built as a teaching tool for UW INFO 310 cybersecurity | PHP, MySQL, Nginx, Docker |
-| [work](https://github.com/keshm2/work) | LLM experiments — LoRA fine-tuning Llama 3.3 70B with Axolotl, and LLM-powered message bank generation with OpenAI and Anthropic APIs | Python, Jupyter, Axolotl |
-| [spring-342c](https://github.com/keshm2/spring-342c) | C++ coursework covering data structures, memory management, and bitwise operations | C++ |
-| [info201_finalProject_wi26](https://github.com/keshm2/info201_finalProject_wi26) | Data analysis and interactive dashboard for INFO 201 final project | Quarto, R |
+| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG tool — ask questions about documents using Llama 3 running on Ollama with BAAI/bge-m3 embeddings | Python, LlamaIndex, Ollama |
+| [bots](https://github.com/keshm2/bots) | Discord bots — chore tracker with SQLite, Canvas LMS assignment reminders, music and mod commands | Python, discord.py |
+| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager — team password vault with role-based access control, built on PHP, MySQL, and Nginx with Docker | PHP, MySQL, Nginx, Docker |
+| [info201_finalProject_wi26](https://github.com/keshm2/info201_finalProject_wi26) | Data analysis and interactive dashboard for an INFO 201 project | Quarto, R |
 
 ---
 
