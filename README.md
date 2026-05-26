@@ -8,13 +8,15 @@
 
 ---
 
-## Hi, I'm Kesh
+## About me
 
-I'm a junior Informatics student at UW interested in software engineering, applied AI, and cybersecurity. I like building things that actually work and solve real problems — not just toy projects.
+Hi, I'm Kesh!
 
-Right now I'm messing around with LoRA fine-tuning open-source LLMs (Llama 3/4), building RAG systems with vector databases, and working on Discord bots that handle chores and Canvas assignment reminders. On the security side I've built a password manager with role-based access control and worked through a lot of the common web vulnerabilities hands-on — SQL injection, CSRF, auth bypass, that kind of stuff.
+I'm a junior Informatics student at UW interested in software engineering and cybersecurity/networking. I'm currently looking for 2026/2027 off-season internships in either field. You can email me at keshm@uw.edu.  
 
-My go-to language is Python but I also use C++, JavaScript, PHP, and SQL pretty regularly. I've got experience with Docker, Nginx, MySQL, and SQLite. Always looking for opportunities to work on something meaningful and ship real software.
+Currently, I work at KredosAi as a Software Development Intern, where I work with LoRA fine-tuning open-source LLMs, building RAG systems with vector databases, and working on Discord bots that do real world tasks such as reminding when assignments are due. On the security side I've built a password manager with role-based access control and worked through a lot of the common web vulnerabilities hands-on. These include SQL injection, CSRF, auth bypass, and JS injection.
+
+Always looking for opportunities to work on something meaningful and ship real software.
 
 ---
 
