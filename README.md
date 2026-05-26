@@ -14,7 +14,7 @@ Hi, I'm Kesh!
 
 I'm a junior Informatics student at UW interested in software engineering and cybersecurity/networking. I'm currently looking for 2026/2027 off-season internships in either field. You can email me at keshm@uw.edu.  
 
-I'm passionate about building real-world applications that make life easier for people and making sure the personal data in those applications stays secure. On the security side I've built a password manager with role-based access control and worked through a lot of the common web vulnerabilities hands-on. These include SQL injection, CSRF, auth bypass, and JS injection.
+I'm passionate about building real-world applications that make life easier for people and making sure the personal data in those applications stays secure. Some of my projects include a local PDF RAG tool powered by Llama 3, Discord bots for chore tracking and Canvas assignment reminders, and a team password vault with role-based access control.
 
 Always looking for opportunities to work on something meaningful and ship real software.
 
