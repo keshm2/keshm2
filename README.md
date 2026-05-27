@@ -1,5 +1,8 @@
 <div align="center">
 
+  <a href="mailto:keshm@uw.edu">
+    <img src="https://img.shields.io/badge/Email-keshm%40uw.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
   <a href="https://linkedin.com/in/ukeshwaran">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -12,31 +15,43 @@
 
 Hi, I'm Kesh!
 
-I'm a junior Informatics student at UW interested in software engineering and cybersecurity/networking. I'm currently looking for 2026/2027 off-season internships in either field. You can email me at keshm@uw.edu.  
+I'm a junior Informatics student at UW with a minor in Data Science. I'm interested in software engineering, cybersecurity, and networking, and I'm currently looking for 2026/2027 off-season internships in those areas.
 
-I'm passionate about building real-world applications that make life easier for people and making sure the personal data in those applications stays secure. Some of my projects include a local PDF RAG tool powered by Llama 3, Discord bots for chore tracking and Canvas assignment reminders, and a team password vault with role-based access control.
+I like building real-world apps that make life easier for people, then thinking through how to keep the data in those apps secure. A lot of my projects come from things I actually wanted to use: a local PDF RAG tool, Discord bots for chores and Canvas reminders, and a team password vault for learning about auth, access control, and common web security issues.
 
-Always looking for opportunities to work on something meaningful and ship real software.
-
----
-
-## Projects
-
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG tool: Ask questions about documents using Llama 3 running on Ollama with BAAI/bge-m3 embeddings | Python, LlamaIndex, Ollama |
-| [bots](https://github.com/keshm2/bots) | Discord bots: Chore tracker with SQLite, Canvas LMS assignment reminders, music and mod commands | Python, discord.py |
-| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager:  Team password vault with role-based access control, built on PHP, MySQL, and Nginx with Docker | PHP, MySQL, Nginx, Docker |
-| [info201_finalProject_wi26](https://github.com/keshm2/info201_finalProject_wi26) | Data analysis and interactive dashboard for an INFO 201 project | Quarto, R |
+Always down to work on something meaningful and ship real software.
 
 ---
 
-## Tech
+## Featured projects
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+| Project | What it is | Stack |
+|---------|------------|-------|
+| [kyper](https://github.com/keshm2/kyper) | Local PDF RAG tool where you can ask questions about documents using Llama 3 through Ollama and BAAI/bge-m3 embeddings. | Python, LlamaIndex, Ollama |
+| [passwordmanager](https://github.com/keshm2/passwordmanager) | UW HusKey Manager, a team password vault built as a cybersecurity teaching tool with auth, roles, vault permissions, Docker, and intentionally vulnerable code for students to exploit and fix. | PHP, MySQL, Nginx, Docker |
+| [bots](https://github.com/keshm2/bots) | A collection of Discord bots, including chore tracking with SQLite, Canvas LMS assignment reminders, music commands, and moderation utilities. | Python, discord.py, SQLite |
+
+---
+
+## Tech I use
+
+**Languages:** Python, C++, JavaScript, PHP, SQL, R  
+**Backend / apps:** Flask basics, PHP, MySQL, SQLite, REST APIs  
+**Data / AI:** LlamaIndex, Ollama, embeddings, Quarto, Jupyter  
+**Security / infra:** Docker, Linux, auth, role-based access control, web security basics  
+**Tools:** Git, GitHub, VS Code, terminal workflows
+
+---
+
+## What I'm working on
+
+- Building small tools that solve annoying real-life problems
+- Learning more about secure backend design and network security
+- Improving my public projects so they are easier to run, read, and understand
+- Looking for 2026/2027 software engineering, cybersecurity, or networking internships
+
+---
+
+## Contact
+
+Best way to reach me is [keshm@uw.edu](mailto:keshm@uw.edu). You can also find me on [LinkedIn](https://linkedin.com/in/ukeshwaran).
