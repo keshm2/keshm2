@@ -123,6 +123,15 @@ Always up for working on something real.
 ![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-2f6fed?style=flat-square&logo=owasp&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC-2f6fed?style=flat-square)
 
+**Networking**
+<br />
+![CCNA](https://img.shields.io/badge/CCNA-049FD9?style=flat-square&logo=cisco&logoColor=white)
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-2f6fed?style=flat-square)
+![Routing & Switching](https://img.shields.io/badge/Routing%20%26%20Switching-2f6fed?style=flat-square)
+![Subnetting](https://img.shields.io/badge/Subnetting-2f6fed?style=flat-square)
+![DNS & DHCP](https://img.shields.io/badge/DNS%20%26%20DHCP-2f6fed?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+
 **Tools**
 <br />
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -147,8 +156,9 @@ If you're hiring or just want to talk shop, reach out. I'd love to hear from you
 ## GitHub stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=keshm2&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&title_color=2f6fed&icon_color=2f6fed&text_color=8894ab" alt="Kesh's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=keshm2&layout=compact&hide_border=true&bg_color=00000000&title_color=2f6fed&text_color=8894ab" alt="Top languages" />
+  <img src="https://img.shields.io/github/followers/keshm2?style=flat-square&logo=github&logoColor=white&label=Followers&color=2f6fed" alt="Followers" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fkeshm2&label=Public%20Repos&query=%24.public_repos&color=2f6fed&style=flat-square&logo=github&logoColor=white" alt="Public repos" />
+  <img src="https://img.shields.io/github/stars/keshm2/aplyx?style=flat-square&logo=github&logoColor=white&label=aplyx%20Stars&color=2f6fed" alt="aplyx stars" />
 </div>
 
 ---
