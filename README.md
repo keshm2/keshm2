@@ -157,7 +157,7 @@ If you're hiring or just want to talk shop, reach out. I'd love to hear from you
 
 <div align="center">
   <img src="https://img.shields.io/github/followers/keshm2?style=flat-square&logo=github&logoColor=white&label=Followers&color=2f6fed" alt="Followers" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fkeshm2&label=Public%20Repos&query=%24.public_repos&color=2f6fed&style=flat-square&logo=github&logoColor=white" alt="Public repos" />
+  <img src="https://img.shields.io/github/last-commit/keshm2/aplyx?style=flat-square&logo=github&logoColor=white&color=2f6fed&label=aplyx%20Last%20Commit" alt="aplyx last commit" />
   <img src="https://img.shields.io/github/stars/keshm2/aplyx?style=flat-square&logo=github&logoColor=white&label=aplyx%20Stars&color=2f6fed" alt="aplyx stars" />
 </div>
 
