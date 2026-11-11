@@ -20,149 +20,56 @@
 
 ## About me
 
-Hi, I'm Kesh!
+Hi, I'm Ukeshwaran Muthukumaran Radha (Kesh Muthu). I'm a senior at UW studying Informatics, with a minor in Data Science, and I graduate in December 2027.
 
-I'm a senior Informatics student at the University of Washington, minoring in Data Science, with a focus on cloud infrastructure, network engineering, and cybersecurity, plus backend, QA, IT/systems, and a bit of frontend on the security side.
+This year I'm interning at KredosAI, building the backend for a voice AI agent. It's FastAPI and vLLM services taking about 100 calls a day, and a lot of my time goes to keeping latency under 500ms. Before that I fine-tuned LLMs there and built vector search at Apexiel. I also got a CCNA along the way, so I still like networking and security more than I probably should.
 
-Most of my projects come from stuff I actually wanted, not a tutorial I followed. I got tired of copy-pasting the same resume into every application, so I built aplyx to handle that for me. I wanted a way to ask questions about my own PDFs instead of scrolling through them, so I built that too. I run a couple of Discord bots for chores and Canvas reminders, and I built a password vault mostly to see, hands-on, how authentication and access control actually break. That's shaped how I build: I try to be deliberate about what a user actually needs, because before I was making these tools, I was the user hoping one already existed.
-
-Always up for working on something real.
+Most of what's below exists because something annoyed me. I was pasting the same resume into every application, so I built Aplyx. My chapter's dues lived in a spreadsheet, so I built a member platform.
 
 ---
 
-## Featured projects
+## Projects
 
-<table>
-  <tr>
-    <td width="150"><b>aplyx</b></td>
-    <td>
-      A local-first job application agent that searches boards like Ashby, Lever, Greenhouse, and Workday, tailors your resume and cover letter for each posting, and applies through your own coding agent. Every decision stays reviewable before anything goes out.
-      <br /><br />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/keshm2/aplyx"><img src="https://img.shields.io/badge/View-Repo-2f6fed?style=flat-square&logo=github&logoColor=white" alt="View aplyx" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td><b>kyper</b></td>
-    <td>
-      A tool for asking questions about your own PDFs, running fully offline with Llama 3 through Ollama and vector search over your documents.
-      <br /><br />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-      <img src="https://img.shields.io/badge/RAG-2f6fed?style=flat-square" alt="RAG" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/keshm2/kyper"><img src="https://img.shields.io/badge/View-Repo-2f6fed?style=flat-square&logo=github&logoColor=white" alt="View kyper" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td><b>passwordmanager</b></td>
-    <td>
-      UW HusKey Manager, a team password vault I built to teach cybersecurity concepts like authentication, role permissions, and access control, with intentionally vulnerable code so students can find and fix real security bugs.
-      <br /><br />
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/keshm2/passwordmanager"><img src="https://img.shields.io/badge/View-Repo-2f6fed?style=flat-square&logo=github&logoColor=white" alt="View passwordmanager" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td><b>bots</b></td>
-    <td>
-      A few Discord bots I built for actual use: one tracks chores, one reminds me about Canvas deadlines, plus some music and moderation commands.
-      <br /><br />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Discord%20API-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord API" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-    </td>
-    <td align="center">
-      <a href="https://github.com/keshm2/bots"><img src="https://img.shields.io/badge/View-Repo-2f6fed?style=flat-square&logo=github&logoColor=white" alt="View bots" /></a>
-    </td>
-  </tr>
-</table>
+### [Ripprz](https://ripprz.com)
+
+A Pokemon card trading app. I led a team of five (standups three times a week, code review) and owned payments. Stripe payouts had three race conditions that were causing double refunds, and the fix was consistent lock ordering plus idempotency keys. Inventory allocation took 10 seconds until I switched it to prefix sums, which got it down to 13ms.
+
+TypeScript, Next.js, PostgreSQL, Redis, Stripe
+
+### Kappa Theta Pi member platform
+
+The site and member portal for our chapter at UW, live at [ktpuw.org](https://ktpuw.org). Dues used to be tracked by hand. Now about 50 members pay through Stripe, event turnout went up 50%, and webhooks for four payment types cut reconciliation errors by 90%. I was most careful about the Postgres row-level security, so a member can't quietly promote themselves to an officer.
+
+Next.js, TypeScript, Supabase, Stripe, Resend
+
+### Aplyx
+
+A job application agent that runs on top of a coding agent you already have (opencode or Claude Code). It searches Ashby, Lever, Greenhouse, and Workday, tailors a resume and cover letter for each posting, applies, and pings me on Discord. Python helpers own all the state and the LLM only orchestrates. If anything looks off at submit time it refuses to send. I later added a read-only MCP server so other agents can query job data, and Redis caching took searches from 7 seconds to under 500ms. [Repo](https://github.com/keshm2/aplyx)
+
+Python, TypeScript, React, Rust, MCP, Redis, PostgreSQL
+
+### Cisco school network deployment
+
+I led a team of five putting Cisco routers and switches into 8 schools, with OSPF routing and DHCP. Each school got its own VLANs so devices stay isolated, and I diagnosed TCP/IP faults across three or more segments per school.
+
+Cisco IOS, OSPF, VLANs, DHCP
+
+### Smaller stuff
+
+[kyper](https://github.com/keshm2/kyper) answers questions about my own PDFs, fully offline with Llama 3 and Ollama. [HusKey Manager](https://github.com/keshm2/passwordmanager) is a password vault for UW's INFO 310 with bugs planted on purpose for students to find. [bots](https://github.com/keshm2/bots) has a few Discord bots, including one that nags about 50 students about chores.
 
 ---
 
 ## Tech I use
 
-**Languages**
-<br />
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-
-**Frameworks & data**
-<br />
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-2f6fed?style=flat-square)
-
-**AI / ML**
-<br />
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-2f6fed?style=flat-square)
-
-**Security**
-<br />
-![OWASP Top 10](https://img.shields.io/badge/OWASP%20Top%2010-2f6fed?style=flat-square&logo=owasp&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-2f6fed?style=flat-square)
-
-**Networking**
-<br />
-![CCNA](https://img.shields.io/badge/CCNA-049FD9?style=flat-square&logo=cisco&logoColor=white)
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-2f6fed?style=flat-square)
-![Routing & Switching](https://img.shields.io/badge/Routing%20%26%20Switching-2f6fed?style=flat-square)
-![Subnetting](https://img.shields.io/badge/Subnetting-2f6fed?style=flat-square)
-![DNS & DHCP](https://img.shields.io/badge/DNS%20%26%20DHCP-2f6fed?style=flat-square)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-
-**Tools**
-<br />
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+- Languages: Python, TypeScript, JavaScript, Java, SQL, C++, Rust, PHP, R, and Go (learning)
+- AI: vLLM, LoRA/QLoRA, RAG, embeddings, MCP, Qdrant, Ollama
+- Backend: FastAPI, Node.js, Next.js, React, PostgreSQL, Redis, Supabase, Docker, AWS, Linux
+- Security and networking: OWASP Top 10, Metasploit, Nmap, CCNA, TCP/IP, OSPF, VLANs
+- Tools: Git, GitHub Actions, Playwright, Claude Code, Codex
 
 ---
 
-## What I'm working on
+## Right now
 
-- Building and maintaining aplyx, a local-first job application agent, and learning what it actually takes to run real software end to end
-- Deepening my background in secure backend design, authentication, and network security
-- Cleaning up my public projects so they are easier for other people to run, read, and build on
-- Actively looking for 2026/2027 off-season internships in cloud, network engineering, or cybersecurity, and open to backend, QA, IT/systems, and frontend (mostly security-focused) roles too, plus 2027 new grad roles as well
-
-If you're hiring or just want to talk shop, reach out. I'd love to hear from you.
-
----
-
-## GitHub stats
-
-<div align="center">
-  <img src="https://img.shields.io/github/followers/keshm2?style=flat-square&logo=github&logoColor=white&label=Followers&color=2f6fed" alt="Followers" />
-  <img src="https://img.shields.io/github/last-commit/keshm2/aplyx?style=flat-square&logo=github&logoColor=white&color=2f6fed&label=aplyx%20Last%20Commit" alt="aplyx last commit" />
-  <img src="https://img.shields.io/github/stars/keshm2/aplyx?style=flat-square&logo=github&logoColor=white&label=aplyx%20Stars&color=2f6fed" alt="aplyx stars" />
-</div>
-
----
-
-## Contact
-
-Best way to reach me is [keshm@uw.edu](mailto:keshm@uw.edu). You can also find me on [LinkedIn](https://linkedin.com/in/ukeshwaran).
+I'm looking for internships and 2027 new grad roles, mostly backend and AI infrastructure, though cloud, networking, and security work interests me too. If you're hiring or just want to talk shop, email me at [keshm@uw.edu](mailto:keshm@uw.edu) or find me on [LinkedIn](https://linkedin.com/in/ukeshwaran).
